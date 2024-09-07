@@ -19,7 +19,7 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
 ### Connect Terraform with AWS
 
-Its very easy to connect Terraform with AWS. Run `aws configure` command and provide the AWS Security credentials as shown in the video.
+Its very easy to connect Terraform with AWS. Run `aws configure` command and provide the AWS Security credentials.
 
 ### Initialize Terraform
 
@@ -27,7 +27,7 @@ Clone the repository and Run `terraform init`. This will intialize the terraform
 
 ### Optionally review the terraform configuration
 
-Run `terraform plan` to see the configuration it creates when executed.
+Run `terraform plan` to see the configuration it creates when executed (or) use 'terraform validate' for the same.
 
 ### Finally, Apply terraform configuation to create EKS cluster with VPC 
 
